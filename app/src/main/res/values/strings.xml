@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Test_HTTP</string>
+    <string name="URLHint">Please enter URL</string>
+</resources>

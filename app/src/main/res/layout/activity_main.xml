@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.asus.test_http.MainActivity">
+    <TextView
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/multiline"
+        android:textSize="25sp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="57dp"/>
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/app_bar">
+        <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        app:layout_scrollFlags="scroll|enterAlways" >
+
+            <android.support.v7.widget.SearchView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/search_bar"
+                android:inputType="textUri"
+                app:theme="@style/Theme.AppCompat.NoActionBar"
+                android:layout_gravity="right"
+                app:searchIcon="@drawable/ic_search_white_24dp"
+                />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+</android.support.design.widget.CoordinatorLayout>
